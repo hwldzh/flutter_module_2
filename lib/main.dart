@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'first.dart';
 
+void main() => (runApp(getWidgetFlutterModule2("", "")));
+
 Widget getWidgetFlutterModule2(String pageName, String query) {
   if(pageName == "mainPage") {
     int index = query.indexOf("haveNav=1");
